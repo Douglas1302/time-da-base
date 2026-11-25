@@ -1,5 +1,6 @@
- 1. Criar banco de dados não relacional 
 Pegar os prints de tela para melhorar a evidência
+
+1. Criar banco de dados não relacional 
 
 2. Tirar arrecadação da pagina principal
 
