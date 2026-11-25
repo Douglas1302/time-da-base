@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Imagem ilustrativa de um smartphone">
+  <defs>
+    <linearGradient id="phoneBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#040C18"/>
+      <stop offset="60%" stop-color="#102A45"/>
+      <stop offset="100%" stop-color="#244FE0"/>
+    </linearGradient>
+    <linearGradient id="phoneScreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#3B6BF5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#phoneBg)"/>
+  <circle cx="930" cy="640" r="260" fill="#34D399" opacity="0.18"/>
+  <circle cx="300" cy="180" r="180" fill="#3B6BF5" opacity="0.3"/>
+  <g transform="translate(420,120)">
+    <rect x="0" y="0" width="360" height="600" rx="56" fill="#0B1D33" stroke="#95B7FF" stroke-width="10"/>
+    <rect x="22" y="22" width="316" height="556" rx="42" fill="url(#phoneScreen)" opacity="0.85"/>
+    <rect x="130" y="40" width="100" height="18" rx="9" fill="#040C18"/>
+    <circle cx="180" cy="330" r="62" fill="#F8FAFC" opacity="0.85"/>
+    <path d="M158 302 L214 330 L158 358 Z" fill="#102A45"/>
+  </g>
+  <g fill="#F8FAFC" font-family="Outfit, Inter, sans-serif">
+    <text x="80" y="130" font-size="34" letter-spacing="6" opacity="0.7">PRÊMIO PRINCIPAL</text>
+    <text x="80" y="212" font-size="76" font-weight="700">SMARTPHONE</text>
+    <text x="80" y="262" font-size="30" opacity="0.75">Imagem ilustrativa do prêmio</text>
+  </g>
+</svg>

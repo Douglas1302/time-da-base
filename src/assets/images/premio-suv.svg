@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Imagem ilustrativa de um SUV 0km">
+  <defs>
+    <linearGradient id="suvBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071426"/>
+      <stop offset="55%" stop-color="#16285F"/>
+      <stop offset="100%" stop-color="#1C3DBB"/>
+    </linearGradient>
+    <linearGradient id="suvShine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#34D399" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3B6BF5" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#suvBg)"/>
+  <circle cx="1010" cy="150" r="250" fill="#3B6BF5" opacity="0.25"/>
+  <circle cx="180" cy="690" r="230" fill="#12B76A" opacity="0.18"/>
+  <path d="M120 620 H1080" stroke="#3B6BF5" stroke-opacity="0.35" stroke-width="3" stroke-dasharray="14 16"/>
+  <g transform="translate(0,20)">
+    <path d="M300 470 L390 350 Q420 315 480 315 H700 Q760 315 800 355 L860 470 Z" fill="#E8EFFB" opacity="0.95"/>
+    <path d="M398 460 L452 372 Q470 350 500 350 H586 V460 Z" fill="#95B7FF" opacity="0.75"/>
+    <path d="M612 350 H690 Q732 350 758 380 L790 460 H612 Z" fill="#95B7FF" opacity="0.55"/>
+    <rect x="240" y="440" width="740" height="140" rx="58" fill="url(#suvShine)"/>
+    <rect x="240" y="500" width="740" height="34" rx="17" fill="#071426" opacity="0.25"/>
+    <circle cx="420" cy="590" r="70" fill="#0B1D33" stroke="#95B7FF" stroke-width="10"/>
+    <circle cx="420" cy="590" r="26" fill="#E8EFFB"/>
+    <circle cx="806" cy="590" r="70" fill="#0B1D33" stroke="#95B7FF" stroke-width="10"/>
+    <circle cx="806" cy="590" r="26" fill="#E8EFFB"/>
+  </g>
+  <g fill="#F8FAFC" font-family="Outfit, Inter, sans-serif">
+    <text x="80" y="130" font-size="34" letter-spacing="6" opacity="0.7">PRÊMIO PRINCIPAL</text>
+    <text x="80" y="212" font-size="76" font-weight="700">SUV 0KM</text>
+    <text x="80" y="262" font-size="30" opacity="0.75">Imagem ilustrativa do prêmio</text>
+  </g>
+</svg>

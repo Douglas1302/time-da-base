@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Imagem ilustrativa de uma moto esportiva 0km">
+  <defs>
+    <linearGradient id="motoBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1738"/>
+      <stop offset="50%" stop-color="#16285F"/>
+      <stop offset="100%" stop-color="#079455"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#motoBg)"/>
+  <circle cx="980" cy="180" r="240" fill="#34D399" opacity="0.2"/>
+  <circle cx="210" cy="660" r="200" fill="#3B6BF5" opacity="0.22"/>
+  <g stroke="#E8EFFB" stroke-width="16" fill="none" stroke-linecap="round">
+    <circle cx="390" cy="560" r="128" stroke="#95B7FF" stroke-width="22"/>
+    <circle cx="860" cy="560" r="128" stroke="#95B7FF" stroke-width="22"/>
+    <path d="M390 560 L560 430 L760 430 L860 560"/>
+    <path d="M560 430 L610 320 H740" stroke="#34D399" stroke-width="20"/>
+    <path d="M470 330 H640" stroke="#34D399" stroke-width="20"/>
+  </g>
+  <circle cx="390" cy="560" r="34" fill="#E8EFFB"/>
+  <circle cx="860" cy="560" r="34" fill="#E8EFFB"/>
+  <g fill="#F8FAFC" font-family="Outfit, Inter, sans-serif">
+    <text x="80" y="130" font-size="34" letter-spacing="6" opacity="0.7">PRÊMIO PRINCIPAL</text>
+    <text x="80" y="212" font-size="76" font-weight="700">MOTO 0KM</text>
+    <text x="80" y="262" font-size="30" opacity="0.75">Imagem ilustrativa do prêmio</text>
+  </g>
+</svg>

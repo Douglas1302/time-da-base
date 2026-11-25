@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Imagem ilustrativa de um kit esportivo oficial">
+  <defs>
+    <linearGradient id="kitBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#040C18"/>
+      <stop offset="55%" stop-color="#16285F"/>
+      <stop offset="100%" stop-color="#1B348F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#kitBg)"/>
+  <circle cx="960" cy="620" r="250" fill="#3B6BF5" opacity="0.25"/>
+  <circle cx="260" cy="160" r="190" fill="#34D399" opacity="0.2"/>
+  <g transform="translate(420,140)">
+    <path d="M150 40 L60 110 L10 200 L110 250 L140 200 L140 500 Q220 530 300 500 L300 200 L330 250 L430 200 L380 110 L290 40 Q220 90 150 40 Z" fill="#F8FAFC"/>
+    <path d="M150 40 Q220 90 290 40 L300 100 Q220 150 140 100 Z" fill="#12B76A"/>
+    <rect x="140" y="330" width="160" height="22" fill="#12B76A"/>
+    <text x="220" y="300" text-anchor="middle" font-family="Outfit, Inter, sans-serif" font-size="52" font-weight="700" fill="#16285F">04</text>
+  </g>
+  <g fill="#F8FAFC" font-family="Outfit, Inter, sans-serif">
+    <text x="80" y="130" font-size="34" letter-spacing="6" opacity="0.7">PRÊMIO PRINCIPAL</text>
+    <text x="80" y="212" font-size="76" font-weight="700">KIT OFICIAL</text>
+    <text x="80" y="262" font-size="30" opacity="0.75">Imagem ilustrativa do prêmio</text>
+  </g>
+</svg>

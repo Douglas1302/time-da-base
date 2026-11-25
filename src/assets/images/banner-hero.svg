@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 640" width="1600" height="640" role="img" aria-label="Banner ilustrativo Time da Base">
+  <defs>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#040C18"/>
+      <stop offset="55%" stop-color="#102A45"/>
+      <stop offset="100%" stop-color="#1C3DBB"/>
+    </linearGradient>
+    <linearGradient id="heroGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#34D399" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3B6BF5" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="640" fill="url(#heroBg)"/>
+  <rect x="0" y="0" width="1600" height="640" fill="url(#heroGlow)"/>
+  <g stroke="#95B7FF" stroke-opacity="0.22" stroke-width="3" fill="none">
+    <circle cx="1280" cy="320" r="190"/>
+    <circle cx="1280" cy="320" r="70"/>
+    <path d="M1090 320 H1470"/>
+    <rect x="120" y="60" width="1360" height="520" rx="18"/>
+  </g>
+  <g opacity="0.9">
+    <path d="M1240 200 h80 v40 h-80 z" fill="#34D399" opacity="0.35"/>
+    <path d="M1260 300 q40 -90 60 0 q10 60 -30 90 q-40 -30 -30 -90 z" fill="#FBBF24" opacity="0.9"/>
+    <rect x="1258" y="392" width="44" height="12" rx="6" fill="#FBBF24" opacity="0.9"/>
+  </g>
+  <g fill="#F8FAFC" font-family="Outfit, Inter, sans-serif">
+    <text x="120" y="240" font-size="40" letter-spacing="8" opacity="0.65">TEMPORADA 2026</text>
+    <text x="120" y="340" font-size="92" font-weight="700">Jogue junto com a base</text>
+    <text x="120" y="410" font-size="32" opacity="0.75">Campanhas ilustrativas de apoio às categorias de base</text>
+  </g>
+</svg>
